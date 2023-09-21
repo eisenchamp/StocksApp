@@ -1,0 +1,22 @@
+PODS:
+  - SDWebImage (5.18.1):
+    - SDWebImage/Core (= 5.18.1)
+  - SDWebImage/Core (5.18.1)
+  - SwiftChart (1.0.1)
+
+DEPENDENCIES:
+  - SDWebImage
+  - SwiftChart
+
+SPEC REPOS:
+  trunk:
+    - SDWebImage
+    - SwiftChart
+
+SPEC CHECKSUMS:
+  SDWebImage: ebdbcebc7933a45226d9313bd0118bc052ad458b
+  SwiftChart: ba767a678d568a5ee22d419e146a0582865e1aff
+
+PODFILE CHECKSUM: d90430acdbbc50382f2ae50e00d2a485db0f55ab
+
+COCOAPODS: 1.12.1

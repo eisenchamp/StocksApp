@@ -7,25 +7,67 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1569BCC4EB02B8F33FC99EFF /* Pods_StocksApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B212D6B6310750960C4AE13F /* Pods_StocksApp.framework */; };
+		7026A5C62AABBA8200F3B1EE /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7026A5C52AABBA8200F3B1EE /* SearchBarView.swift */; };
+		7026A5CA2AADC00600F3B1EE /* StockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7026A5C92AADC00600F3B1EE /* StockData.swift */; };
+		7026A5CC2AADC01A00F3B1EE /* stockProfiles.json in Resources */ = {isa = PBXBuildFile; fileRef = 7026A5CB2AADC01A00F3B1EE /* stockProfiles.json */; };
+		7026A5CE2AADC03A00F3B1EE /* StockModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7026A5CD2AADC03A00F3B1EE /* StockModel.swift */; };
+		7026A5D02AADC05700F3B1EE /* StockLiveData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7026A5CF2AADC05700F3B1EE /* StockLiveData.swift */; };
+		7026A5D22AADC08100F3B1EE /* StockManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7026A5D12AADC08100F3B1EE /* StockManager.swift */; };
+		7026A5D42AADC45000F3B1EE /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7026A5D32AADC45000F3B1EE /* TableViewCell.swift */; };
+		7026A5D62AADCABC00F3B1EE /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7026A5D52AADCABC00F3B1EE /* ViewModel.swift */; };
+		7042F0E22ABB743800CA4539 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7042F0E12ABB743800CA4539 /* SearchView.swift */; };
+		7042F0E42ABB748100CA4539 /* RequestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7042F0E32ABB748100CA4539 /* RequestView.swift */; };
+		7042F0E62ABB74DA00CA4539 /* RequestCustomButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7042F0E52ABB74DA00CA4539 /* RequestCustomButton.swift */; };
+		707BE7B12ABB60A6002241F5 /* StockDetailsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707BE7B02ABB60A6002241F5 /* StockDetailsModel.swift */; };
+		707BE7B32ABB60CB002241F5 /* StockDetailsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707BE7B22ABB60CB002241F5 /* StockDetailsViewModel.swift */; };
+		707BE7B52ABB61C6002241F5 /* StockGraphData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707BE7B42ABB61C6002241F5 /* StockGraphData.swift */; };
+		707BE7B82ABB6360002241F5 /* Montserrat-VariableFont_wght.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 707BE7B72ABB6360002241F5 /* Montserrat-VariableFont_wght.ttf */; };
+		707BE7BA2ABB6388002241F5 /* Montserrat-SemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 707BE7B92ABB6388002241F5 /* Montserrat-SemiBold.ttf */; };
+		707BE7BC2ABB6392002241F5 /* Montserrat-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 707BE7BB2ABB6392002241F5 /* Montserrat-Medium.ttf */; };
+		707BE7BE2ABB639A002241F5 /* Montserrat-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 707BE7BD2ABB639A002241F5 /* Montserrat-Bold.ttf */; };
+		707BE7C02ABB63A2002241F5 /* MontserratFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 707BE7BF2ABB63A2002241F5 /* MontserratFont.swift */; };
 		70C7EDBB2AA9853100A03BD0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C7EDBA2AA9853100A03BD0 /* AppDelegate.swift */; };
 		70C7EDBD2AA9853100A03BD0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C7EDBC2AA9853100A03BD0 /* SceneDelegate.swift */; };
 		70C7EDBF2AA9853100A03BD0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70C7EDBE2AA9853100A03BD0 /* ViewController.swift */; };
-		70C7EDC22AA9853100A03BD0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C7EDC02AA9853100A03BD0 /* Main.storyboard */; };
 		70C7EDC52AA9853100A03BD0 /* StocksApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 70C7EDC32AA9853100A03BD0 /* StocksApp.xcdatamodeld */; };
 		70C7EDC72AA9853200A03BD0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70C7EDC62AA9853200A03BD0 /* Assets.xcassets */; };
 		70C7EDCA2AA9853200A03BD0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70C7EDC82AA9853200A03BD0 /* LaunchScreen.storyboard */; };
+		70CA1CB32ABB5E5800D108A4 /* StockDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CA1CB22ABB5E5800D108A4 /* StockDetailsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		23630910B74C19C602B4DED7 /* Pods-StocksApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StocksApp.release.xcconfig"; path = "Target Support Files/Pods-StocksApp/Pods-StocksApp.release.xcconfig"; sourceTree = "<group>"; };
+		4B64F640F9FA6DCB555C2A9A /* Pods-StocksApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-StocksApp.debug.xcconfig"; path = "Target Support Files/Pods-StocksApp/Pods-StocksApp.debug.xcconfig"; sourceTree = "<group>"; };
+		7026A5C52AABBA8200F3B1EE /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		7026A5C92AADC00600F3B1EE /* StockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockData.swift; sourceTree = "<group>"; };
+		7026A5CB2AADC01A00F3B1EE /* stockProfiles.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stockProfiles.json; sourceTree = "<group>"; };
+		7026A5CD2AADC03A00F3B1EE /* StockModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockModel.swift; sourceTree = "<group>"; };
+		7026A5CF2AADC05700F3B1EE /* StockLiveData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockLiveData.swift; sourceTree = "<group>"; };
+		7026A5D12AADC08100F3B1EE /* StockManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockManager.swift; sourceTree = "<group>"; };
+		7026A5D32AADC45000F3B1EE /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableViewCell.swift; sourceTree = "<group>"; };
+		7026A5D52AADCABC00F3B1EE /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		7042F0E12ABB743800CA4539 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		7042F0E32ABB748100CA4539 /* RequestView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestView.swift; sourceTree = "<group>"; };
+		7042F0E52ABB74DA00CA4539 /* RequestCustomButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RequestCustomButton.swift; sourceTree = "<group>"; };
+		707BE7B02ABB60A6002241F5 /* StockDetailsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailsModel.swift; sourceTree = "<group>"; };
+		707BE7B22ABB60CB002241F5 /* StockDetailsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailsViewModel.swift; sourceTree = "<group>"; };
+		707BE7B42ABB61C6002241F5 /* StockGraphData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockGraphData.swift; sourceTree = "<group>"; };
+		707BE7B72ABB6360002241F5 /* Montserrat-VariableFont_wght.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-VariableFont_wght.ttf"; sourceTree = "<group>"; };
+		707BE7B92ABB6388002241F5 /* Montserrat-SemiBold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-SemiBold.ttf"; sourceTree = "<group>"; };
+		707BE7BB2ABB6392002241F5 /* Montserrat-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Medium.ttf"; sourceTree = "<group>"; };
+		707BE7BD2ABB639A002241F5 /* Montserrat-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Montserrat-Bold.ttf"; sourceTree = "<group>"; };
+		707BE7BF2ABB63A2002241F5 /* MontserratFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MontserratFont.swift; sourceTree = "<group>"; };
 		70C7EDB72AA9853100A03BD0 /* StocksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StocksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70C7EDBA2AA9853100A03BD0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70C7EDBC2AA9853100A03BD0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		70C7EDBE2AA9853100A03BD0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		70C7EDC12AA9853100A03BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70C7EDC42AA9853100A03BD0 /* StocksApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = StocksApp.xcdatamodel; sourceTree = "<group>"; };
 		70C7EDC62AA9853200A03BD0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70C7EDC92AA9853200A03BD0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70C7EDCB2AA9853200A03BD0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70CA1CB22ABB5E5800D108A4 /* StockDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StockDetailsViewController.swift; sourceTree = "<group>"; };
+		B212D6B6310750960C4AE13F /* Pods_StocksApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_StocksApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +75,40 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1569BCC4EB02B8F33FC99EFF /* Pods_StocksApp.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3BD6B3A89F8E6E9462B16D0F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B212D6B6310750960C4AE13F /* Pods_StocksApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		707BE7B62ABB632A002241F5 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				707BE7BF2ABB63A2002241F5 /* MontserratFont.swift */,
+				707BE7BD2ABB639A002241F5 /* Montserrat-Bold.ttf */,
+				707BE7BB2ABB6392002241F5 /* Montserrat-Medium.ttf */,
+				707BE7B92ABB6388002241F5 /* Montserrat-SemiBold.ttf */,
+				707BE7B72ABB6360002241F5 /* Montserrat-VariableFont_wght.ttf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
 		70C7EDAE2AA9853100A03BD0 = {
 			isa = PBXGroup;
 			children = (
 				70C7EDB92AA9853100A03BD0 /* StocksApp */,
 				70C7EDB82AA9853100A03BD0 /* Products */,
+				808561A12F9A57F438DAB3D9 /* Pods */,
+				3BD6B3A89F8E6E9462B16D0F /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,16 +123,72 @@
 		70C7EDB92AA9853100A03BD0 /* StocksApp */ = {
 			isa = PBXGroup;
 			children = (
+				707BE7B62ABB632A002241F5 /* Font */,
+				70CA1CB12ABB5E3600D108A4 /* StockDetails */,
+				70C7EDD32AA99B2D00A03BD0 /* ViewModel */,
+				70C7EDD22AA99B2700A03BD0 /* View */,
+				70C7EDD12AA99B1C00A03BD0 /* Model */,
 				70C7EDBA2AA9853100A03BD0 /* AppDelegate.swift */,
 				70C7EDBC2AA9853100A03BD0 /* SceneDelegate.swift */,
-				70C7EDBE2AA9853100A03BD0 /* ViewController.swift */,
-				70C7EDC02AA9853100A03BD0 /* Main.storyboard */,
 				70C7EDC62AA9853200A03BD0 /* Assets.xcassets */,
 				70C7EDC82AA9853200A03BD0 /* LaunchScreen.storyboard */,
 				70C7EDCB2AA9853200A03BD0 /* Info.plist */,
 				70C7EDC32AA9853100A03BD0 /* StocksApp.xcdatamodeld */,
 			);
 			path = StocksApp;
+			sourceTree = "<group>";
+		};
+		70C7EDD12AA99B1C00A03BD0 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7026A5CB2AADC01A00F3B1EE /* stockProfiles.json */,
+				7026A5C92AADC00600F3B1EE /* StockData.swift */,
+				7026A5CD2AADC03A00F3B1EE /* StockModel.swift */,
+				7026A5CF2AADC05700F3B1EE /* StockLiveData.swift */,
+				7026A5D12AADC08100F3B1EE /* StockManager.swift */,
+				707BE7B42ABB61C6002241F5 /* StockGraphData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		70C7EDD22AA99B2700A03BD0 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				70C7EDBE2AA9853100A03BD0 /* ViewController.swift */,
+				7026A5C52AABBA8200F3B1EE /* SearchBarView.swift */,
+				7026A5D32AADC45000F3B1EE /* TableViewCell.swift */,
+				7042F0E12ABB743800CA4539 /* SearchView.swift */,
+				7042F0E32ABB748100CA4539 /* RequestView.swift */,
+				7042F0E52ABB74DA00CA4539 /* RequestCustomButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70C7EDD32AA99B2D00A03BD0 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7026A5D52AADCABC00F3B1EE /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		70CA1CB12ABB5E3600D108A4 /* StockDetails */ = {
+			isa = PBXGroup;
+			children = (
+				70CA1CB22ABB5E5800D108A4 /* StockDetailsViewController.swift */,
+				707BE7B02ABB60A6002241F5 /* StockDetailsModel.swift */,
+				707BE7B22ABB60CB002241F5 /* StockDetailsViewModel.swift */,
+			);
+			path = StockDetails;
+			sourceTree = "<group>";
+		};
+		808561A12F9A57F438DAB3D9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4B64F640F9FA6DCB555C2A9A /* Pods-StocksApp.debug.xcconfig */,
+				23630910B74C19C602B4DED7 /* Pods-StocksApp.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -77,9 +198,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 70C7EDCE2AA9853200A03BD0 /* Build configuration list for PBXNativeTarget "StocksApp" */;
 			buildPhases = (
+				02DA7307B32C813C94BEF1A5 /* [CP] Check Pods Manifest.lock */,
 				70C7EDB32AA9853100A03BD0 /* Sources */,
 				70C7EDB42AA9853100A03BD0 /* Frameworks */,
 				70C7EDB52AA9853100A03BD0 /* Resources */,
+				DA9DC312276295D6659159A9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -128,22 +251,83 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				707BE7B82ABB6360002241F5 /* Montserrat-VariableFont_wght.ttf in Resources */,
 				70C7EDCA2AA9853200A03BD0 /* LaunchScreen.storyboard in Resources */,
+				7026A5CC2AADC01A00F3B1EE /* stockProfiles.json in Resources */,
 				70C7EDC72AA9853200A03BD0 /* Assets.xcassets in Resources */,
-				70C7EDC22AA9853100A03BD0 /* Main.storyboard in Resources */,
+				707BE7BC2ABB6392002241F5 /* Montserrat-Medium.ttf in Resources */,
+				707BE7BA2ABB6388002241F5 /* Montserrat-SemiBold.ttf in Resources */,
+				707BE7BE2ABB639A002241F5 /* Montserrat-Bold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		02DA7307B32C813C94BEF1A5 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-StocksApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DA9DC312276295D6659159A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StocksApp/Pods-StocksApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-StocksApp/Pods-StocksApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-StocksApp/Pods-StocksApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		70C7EDB32AA9853100A03BD0 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				707BE7B32ABB60CB002241F5 /* StockDetailsViewModel.swift in Sources */,
+				707BE7B12ABB60A6002241F5 /* StockDetailsModel.swift in Sources */,
+				70CA1CB32ABB5E5800D108A4 /* StockDetailsViewController.swift in Sources */,
+				7026A5D02AADC05700F3B1EE /* StockLiveData.swift in Sources */,
+				7026A5CE2AADC03A00F3B1EE /* StockModel.swift in Sources */,
+				707BE7C02ABB63A2002241F5 /* MontserratFont.swift in Sources */,
+				7042F0E22ABB743800CA4539 /* SearchView.swift in Sources */,
+				707BE7B52ABB61C6002241F5 /* StockGraphData.swift in Sources */,
+				7042F0E62ABB74DA00CA4539 /* RequestCustomButton.swift in Sources */,
+				7026A5D22AADC08100F3B1EE /* StockManager.swift in Sources */,
+				7026A5D62AADCABC00F3B1EE /* ViewModel.swift in Sources */,
 				70C7EDBF2AA9853100A03BD0 /* ViewController.swift in Sources */,
 				70C7EDBB2AA9853100A03BD0 /* AppDelegate.swift in Sources */,
+				7026A5D42AADC45000F3B1EE /* TableViewCell.swift in Sources */,
 				70C7EDC52AA9853100A03BD0 /* StocksApp.xcdatamodeld in Sources */,
+				7042F0E42ABB748100CA4539 /* RequestView.swift in Sources */,
+				7026A5CA2AADC00600F3B1EE /* StockData.swift in Sources */,
+				7026A5C62AABBA8200F3B1EE /* SearchBarView.swift in Sources */,
 				70C7EDBD2AA9853100A03BD0 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +335,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		70C7EDC02AA9853100A03BD0 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				70C7EDC12AA9853100A03BD0 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		70C7EDC82AA9853200A03BD0 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -286,6 +462,7 @@
 		};
 		70C7EDCF2AA9853200A03BD0 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B64F640F9FA6DCB555C2A9A /* Pods-StocksApp.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,7 +472,6 @@
 				INFOPLIST_FILE = StocksApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -313,6 +489,7 @@
 		};
 		70C7EDD02AA9853200A03BD0 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23630910B74C19C602B4DED7 /* Pods-StocksApp.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -322,7 +499,6 @@
 				INFOPLIST_FILE = StocksApp/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
